@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Sistemas de Administracion de Proyectos</title>
+	<title>BACANON</title>
 	<link rel="stylesheet" href="{{asset("css/bootstrap.css")}}">
 	<script src="{{asset("js/jquery-3.2.1.js")}}""></script>
 </head>
@@ -16,7 +16,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{{url('/')}}">Sistema de Administración de Proyectos</a>
+      <a class="navbar-brand" href="{{url('/')}}"> BACANON Mariscos </a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -24,19 +24,23 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Registros <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="{{url('/registrarProyecto')}}">Registrar Proyecto</a></li>
-            <li><a href="{{url('/registrarEncargados')}}">Registrar Encargados</a></li>
-            <li><a href="{{url('/registrarRecursos')}}">Registrar Recursos</a></li>
+            <li><a href="{{url('')}}">Registrar Trabajador</a></li>
+            <li><a href="{{url('')}}">Registrar Cliente</a></li>
+            <li><a href="{{url('')}}">Registrar puesto</a></li>
+            <li class="divider"></li>
+            <li><a href="{{url('')}}"> Registrar Platillo</a></li>
+            <li><a href="{{url('/registrarBebidas')}}"> Registrar Bebidas</a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Consultas <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="{{url('/consultarProyecto')}}">Consultar Proyectos</a></li>
-            <li><a href="{{url('/consultarEncargados')}}">Consultar Encargado</a></li>
-            <li><a href="{{url('/consultarRecursos')}}">Consultar Recursos</a></li>
+            <li><a href="{{url('')}}">Consultar Trabajadores</a></li>
+            <li><a href="{{url('')}}">Consultar Clientes</a></li>
+            <li><a href="{{url('')}}">Consultar Puestos</a></li>
             <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="{{url('')}}">Consultar Platillos</a></li>
+            <li><a href="{{url('')}}">Consultar Bebidas</a></li>
           </ul>
         </li>
       </ul>
@@ -63,7 +67,7 @@
 
 <footer class="text-center">
 	<hr>
-	Negociós Electronicos &copy; 2017
+	BACANON &copy; 2017
 </footer>
 <script src="{{asset("js/bootstrap.js")}}""></script>
 </body>

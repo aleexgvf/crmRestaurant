@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('/master');
 });
+
+//Rutas de Bebidas
+
+Route::get('/registrarBebidas', 'bebidasController@regitrar');
